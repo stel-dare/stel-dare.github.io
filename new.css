@@ -1,0 +1,256 @@
+html{
+  margin: 0;
+}
+body{
+ /* background: #2b2b28;*/
+background:#000000;
+  margin: 0;
+}
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  display: flex;
+  justify-content:space-between;
+  align-items:baseline;
+  font-size: 170%;
+  padding:0.3em 0.4em 0 0.4em;
+}
+
+nav, nav a{
+  color:#ebebe3;
+}
+nav a{
+  text-decoration: none;
+}
+
+.socialLinks a{
+  padding: 0 0.3em 0 0;
+}
+
+.dropLinks{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content: center;
+}
+
+.dropLinks a{
+    font-size: 70%;
+    padding: 1em 1em 0 0;
+}
+
+.show{
+  display: none;
+}
+
+/********Nav End *************/
+.intro{
+  height: 100vh;
+  overflow: hidden;
+  background:url("black-ii.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* .portrait{
+  width: 80%;
+  margin: 1em auto 1em auto;
+}
+
+.portrait img{
+  max-width: 100%;
+} */
+
+.hello, .name{
+  color:#ebebe3;
+  position: absolute;
+  bottom: 0.5em;
+  font-size: 250%;
+}
+.hello{
+  bottom: 3em;
+}
+.title{
+  font-size: 50%;
+}
+
+.hello h1, .name h1, .name p{
+  margin: 0.2em;
+}
+/****************Me Ends***************/
+.about{
+  height: 100vh;
+  overflow: hidden;
+  background:url("white-i.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.aboutText{
+  width: 85%;
+  margin: auto;
+}
+
+/*************About End********/
+
+.projects{
+  margin: 2em 0em 2em 0em;
+}
+
+.proj{
+  margin: 3em auto;
+}
+.projAbout{
+color:#ebebe3;
+width: 90%;
+margin: 0 auto;
+}
+.projImg{
+  width: 90%;
+  margin: 1em auto;
+}
+.projImg img{
+  width: 100%;
+}
+
+.projButtons{
+  width: 90%;
+  margin:0 auto;
+}
+
+.projButtons button{
+  font-size: 100%;
+  margin: 0 0.5em 0 0;
+}
+
+.projButtons button i{
+  padding: 0 0.3em;
+}
+
+footer p {
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+  font-size: 90%;
+}
+
+ @media only screen and (min-width: 768px) {
+#hamburger{
+  display: none;
+}
+.show{
+  display: flex;
+}
+.dropLinks{
+  flex-direction: row;
+}
+
+.dropLinks a{
+  padding-left: 3em;
+}
+
+nav{
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+/********Nav End *************/
+/* .portrait{
+  margin-top: -9em;
+} */
+
+.name{
+  /* left:12em; */
+  /* bottom: 9em; */
+  bottom: 40%;
+  left: 60%;
+}
+
+.hello{
+  /* bottom: 10em; */
+  bottom: 42%;
+  /* left: 0.5em; */
+  left: 5%;
+}
+
+/****************Me Ends***************/
+
+.aboutText{
+  width: 45%;
+  margin-left: 5%;
+}
+/************About Ends************/
+.projects{
+  width: 90%;
+  margin: 0 auto;
+}
+.proj{
+  display: flex;
+  /* flex:1; */
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* align-items: baseline; */
+}
+.projImg{
+  /* order:1; */
+  margin-right: 2em;
+  width: 50%;
+  /* align-self:baseline; */
+}
+.projAbout{
+  /* order: 2; */
+  /* flex-shrink: 5; */
+  margin-right: 2em;
+  /* margin-top: 0em; */
+  width: 40%;
+  /* align-self: baseline; */
+  /* align-self: flex-start; */
+}
+.projButtons{
+  width: 40%;
+  margin: -5em 0 0 0;
+  /* align-self: baseline; */
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .dropLinks a{
+    padding-left: 4em;
+  }
+
+  .socialLinks a{
+    padding: 0 0.8em 0 0;
+  }
+
+  nav{
+    padding-left: 1.5em;
+    padding-right: 1.8em;
+  }
+  /********Nav End *************/
+
+  /* .portrait{
+    margin-top: -22em;
+  } */
+
+  .name{
+    /* left:12em; */
+    /* bottom: 9em; */
+    bottom: 40%;
+    left: 70%;
+  }
+
+  .hello{
+    /* bottom: 10em; */
+    bottom: 42%;
+    /* left: 0.5em; */
+    left: 5%;
+  }
+/****************About Ends ******************/
+.projects{
+  width: 65%;
+}
+}
