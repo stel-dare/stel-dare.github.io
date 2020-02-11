@@ -2,7 +2,6 @@ html{
   margin: 0;
 }
 body{
- /* background: #2b2b28;*/
 background:#000000;
   margin: 0;
 }
@@ -17,6 +16,10 @@ nav{
   align-items:baseline;
   font-size: 170%;
   padding:0.3em 0.4em 0 0.4em;
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
 }
 
 nav, nav a{
@@ -39,7 +42,7 @@ nav a{
 
 .dropLinks a{
     font-size: 70%;
-    padding: 1em 1em 0 0;
+    padding: 0.3em 1em 1em 0;
 }
 
 .show{
@@ -53,14 +56,6 @@ nav a{
   background:url("black-ii.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* .portrait{
-  width: 80%;
-  margin: 1em auto 1em auto;
-}
-
-.portrait img{
-  max-width: 100%;
-} */
 
 .hello, .name{
   color:#ebebe3;
@@ -146,29 +141,22 @@ footer p {
 }
 
 .dropLinks a{
-  padding-left: 3em;
+  padding: 0em 0em 0em 3em;
 }
 
 nav{
-  padding-left: 0.8em;
-  padding-right: 0.8em;
+  padding:0.4em 0.8em 0.4em 0.8em;
+  font-size: 190%;
 }
 /********Nav End *************/
-/* .portrait{
-  margin-top: -9em;
-} */
 
 .name{
-  /* left:12em; */
-  /* bottom: 9em; */
   bottom: 40%;
   left: 60%;
 }
 
 .hello{
-  /* bottom: 10em; */
   bottom: 42%;
-  /* left: 0.5em; */
   left: 5%;
 }
 
@@ -185,31 +173,19 @@ nav{
 }
 .proj{
   display: flex;
-  /* flex:1; */
   flex-wrap: wrap;
-  /* justify-content: center; */
-  /* justify-content: space-between; */
-  /* align-items: baseline; */
 }
 .projImg{
-  /* order:1; */
   margin-right: 2em;
   width: 50%;
-  /* align-self:baseline; */
 }
 .projAbout{
-  /* order: 2; */
-  /* flex-shrink: 5; */
   margin-right: 2em;
-  /* margin-top: 0em; */
   width: 40%;
-  /* align-self: baseline; */
-  /* align-self: flex-start; */
 }
 .projButtons{
   width: 40%;
   margin: -5em 0 0 0;
-  /* align-self: baseline; */
 
 }
 
@@ -229,24 +205,17 @@ nav{
   nav{
     padding-left: 1.5em;
     padding-right: 1.8em;
+    font-size: 210%;
   }
   /********Nav End *************/
 
-  /* .portrait{
-    margin-top: -22em;
-  } */
-
   .name{
-    /* left:12em; */
-    /* bottom: 9em; */
     bottom: 40%;
     left: 70%;
   }
 
   .hello{
-    /* bottom: 10em; */
     bottom: 42%;
-    /* left: 0.5em; */
     left: 5%;
   }
 /****************About Ends ******************/
