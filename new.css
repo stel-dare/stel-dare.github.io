@@ -169,13 +169,17 @@ nav{
 /********Nav End *************/
 
 .name{
+  width: max-content;
+  font-size: 270%;
   bottom: 40%;
-  left: 60%;
+  /* left: 60%; */
+  right: 4%;
 }
 
 .hello{
+  font-size: 270%;
   bottom: 42%;
-  left: 5%;
+  left: 4%;
 }
 
 /****************Me Ends***************/
@@ -228,13 +232,16 @@ nav{
   /********Nav End *************/
 
   .name{
+    font-size: 290%;
     bottom: 40%;
-    left: 70%;
+    right: 6%;
+    /* left: 70%; */
   }
 
   .hello{
+    font-size: 290%;
     bottom: 42%;
-    left: 5%;
+    left: 6%;
   }
 /****************About Ends ******************/
 .projects{
