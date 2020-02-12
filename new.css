@@ -86,8 +86,14 @@ nav a{
 
 .aboutText{
   font-family: 'Lato', sans-serif;
-  width: 85%;
-  margin: auto;
+  font-size: 150%;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  color: #ffffff;
+  line-height: 1.4;
+  width: 90%;
+  margin: 3em auto;
+  padding: 0.1em 0.4em;
+  border-radius: 15px 50px;
 }
 
 /*************About End********/
@@ -185,8 +191,8 @@ nav{
 /****************Me Ends***************/
 
 .aboutText{
-  width: 45%;
-  margin-left: 5%;
+  width: 55%;
+  margin:5em 0em 0em 2em;
 }
 /************About Ends************/
 .projects{
@@ -242,6 +248,11 @@ nav{
     font-size: 290%;
     bottom: 42%;
     left: 6%;
+  }
+
+  .aboutText{
+    width: 25%;
+    margin:7em 0em 0em 2em;
   }
 /****************About Ends ******************/
 .projects{
