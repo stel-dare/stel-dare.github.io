@@ -105,6 +105,8 @@ nav a{
 .proj{
   margin: 3em auto;
 }
+
+
 .projAbout{
 color:#ebebe3;
 width: 90%;
@@ -113,10 +115,13 @@ margin: 0 auto;
 
 .projAbout h3{
   font-family: 'Merriweather', serif;
+  font-size: 150%;
 }
 
 .projAbout p{
   font-family: 'Lato', sans-serif;
+  font-size: 110%;
+  line-height: 1.4;
 }
 
 .projImg{
@@ -127,18 +132,31 @@ margin: 0 auto;
   width: 100%;
 }
 
+.deskBut .projButtons{
+  display: none;
+}
 .projButtons{
   width: 90%;
   margin:0 auto;
 }
 
 .projButtons button{
-  font-size: 100%;
+  font-family: 'Merriweather', serif;
+  font-size:110%;
   margin: 0 0.5em 0 0;
 }
 
 .projButtons button i{
   padding: 0 0.3em;
+}
+
+hr{
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 1px;
+  width: 5em;
+  margin: 0 auto;
 }
 
 footer p {
@@ -149,9 +167,6 @@ footer p {
   font-size: 90%;
 }
 
-.projButtons button{
-  font-family: 'Merriweather', serif;
-}
 
  @media only screen and (min-width: 768px) {
 #hamburger{
@@ -199,24 +214,27 @@ nav{
   width: 90%;
   margin: 0 auto;
 }
-.proj{
+ .proj{
   display: flex;
-  flex-wrap: wrap;
-}
-.projImg{
-  margin-right: 2em;
-  width: 50%;
-}
-.projAbout{
-  margin-right: 2em;
-  width: 40%;
-}
-.projButtons{
-  width: 40%;
-  margin: -5em 0 0 0;
-
+  justify-content: space-around;
+  justify-content: center;
 }
 
+.mobBut .projButtons{
+  display: none;
+}
+
+.deskBut .projButtons{
+  display: block;
+}
+
+.mobBut , .deskBut{
+  width: 45%;
+}
+
+.projImg, .projImg img{
+  width: 100%;
+}
 
 }
 
@@ -259,3 +277,17 @@ nav{
   width: 65%;
 }
 }
+
+@media only screen and (min-width: 1440px){
+  .projects{
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2560px){
+  .projects{
+    width: 40%;
+  }
+}
+
+
