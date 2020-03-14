@@ -16,7 +16,7 @@ nav{
   align-items:baseline;
   font-family: 'Lato', sans-serif;
   font-size: 170%;
-  padding:0.3em 0.4em 0 0.4em;
+  padding:0.1em 0.4em 0 0.4em;
   background:linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
@@ -82,6 +82,9 @@ nav a{
   overflow: hidden;
   background:url("white-i.jpg") no-repeat center center fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutText{
@@ -91,7 +94,7 @@ nav a{
   color: #ffffff;
   line-height: 1.4;
   width: 90%;
-  margin: 3em auto;
+  /* margin: 3em auto; */
   padding: 0.1em 0.4em;
   border-radius: 15px 50px;
 }
@@ -144,6 +147,11 @@ margin: 0 auto;
   font-family: 'Merriweather', serif;
   font-size:110%;
   margin: 0 0.5em 0 0;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #455d7a;
+  border-radius: 6px;
+  /* Button color options: 5c848e  7e97a6  474a56 455d7a*/
 }
 
 .projButtons button i{
@@ -184,7 +192,7 @@ footer p {
 }
 
 nav{
-  padding:0.4em 0.8em 0.4em 0.8em;
+  padding:0.1em 0.8em 0.1em 0.8em;
   font-size: 190%;
 }
 /********Nav End *************/
@@ -192,22 +200,25 @@ nav{
 .name{
   width: max-content;
   font-size: 270%;
-  bottom: 40%;
+  top: 40%;
   /* left: 60%; */
   right: 4%;
 }
 
 .hello{
   font-size: 270%;
-  bottom: 42%;
+  top: 40%;
   left: 4%;
 }
 
 /****************Me Ends***************/
-
+.about{
+  justify-content: flex-start;
+  align-items: flex-end;
+}
 .aboutText{
   width: 55%;
-  margin:5em 0em 0em 2em;
+  margin:0em 0em 1em 1em;
 }
 /************About Ends************/
 .projects{
@@ -257,20 +268,20 @@ nav{
 
   .name{
     font-size: 290%;
-    bottom: 40%;
+    /* bottom: 40%; */
     right: 6%;
     /* left: 70%; */
   }
 
   .hello{
     font-size: 290%;
-    bottom: 42%;
+    /* bottom: 42%; */
     left: 6%;
   }
 
   .aboutText{
-    width: 25%;
-    margin:7em 0em 0em 2em;
+    width: 40%;
+    /* margin:7em 0em 0em 2em; */
   }
 /****************About Ends ******************/
 .projects{
@@ -289,5 +300,3 @@ nav{
     width: 40%;
   }
 }
-
-
