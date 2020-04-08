@@ -1,5 +1,6 @@
 html{
   margin: 0;
+  /* -webkit-transform: translate3d(0,0,0); */
 }
 body{
 background:#000000;
@@ -54,8 +55,11 @@ nav a{
 .intro{
   height: 100vh;
   overflow: hidden;
-  background:url("black-ii.jpg") no-repeat center center fixed;
+  background:url("moi-feather-iii.jpg") no-repeat 30% 30% fixed;
   background-size: cover;
+  -webkit-transform: translate3d(0,0,0); 
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 .hello, .name{
@@ -80,11 +84,14 @@ nav a{
 .about{
   height: 100vh;
   overflow: hidden;
-  background:url("white-i.jpg") no-repeat center center fixed;
+  background:url("moi-about-ii.jpg") no-repeat 50% 40% fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-transform: translate3d(0,0,0); 
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 .aboutText{
