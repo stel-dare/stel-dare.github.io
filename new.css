@@ -34,7 +34,9 @@ nav a{
 .socialLinks a{
   padding: 0 0.3em 0 0;
 }
-
+a{
+  -webkit-tap-highlight-color: transparent;
+}
 .dropLinks{
   display: flex;
   flex-direction: column;
@@ -150,7 +152,7 @@ margin: 0 auto;
   margin:0 auto;
 }
 
-.projButtons button{
+.projButtons button, .viewMore{
   font-family: 'Merriweather', serif;
   font-size:110%;
   margin: 0 0.5em 0 0;
@@ -159,6 +161,11 @@ margin: 0 auto;
   border: 2px solid #455d7a;
   border-radius: 6px;
   /* Button color options: 5c848e  7e97a6  474a56 455d7a*/
+}
+
+.viewMore{
+  display: block;
+  margin: 0 auto;
 }
 
 .projButtons button i{
@@ -181,7 +188,33 @@ footer p {
   text-align: center;
   font-size: 90%;
 }
+/*********Animations ****************/
+.hoverAnime,.navAnime{
+  background-position: center;
+  transition:all 0.8s ease;
+}
 
+.hoverAnime:hover{
+  /* background: #455d7a; */
+  background: #455d7a radial-gradient(circle, transparent 1%, #455d7a 1%) center/15000%;
+}
+
+.navAnime:hover{
+  color:#420C3B;
+  /* color: #420C3B radial-gradient(circle, transparent 1%, #420C3B 1%) center/15000%; */
+}
+
+.hoverAnime:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition:  0s;
+}
+
+.navAnime:active{
+  color: #6eb9f7;
+  /* background-size: 100%;
+  transition:  0s; */
+}
 
  @media only screen and (min-width: 768px) {
 #hamburger{
