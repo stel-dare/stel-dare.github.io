@@ -57,7 +57,7 @@ a{
 .intro{
   height: 100vh;
   overflow: hidden;
-  background:url("moi-feather-iii.jpg") no-repeat 30% 30% fixed;
+  background:url("moi-trans-i.png") no-repeat 30% 30% fixed;
   background-size: cover;
   -webkit-transform: translate3d(0,0,0); 
   -webkit-backface-visibility: hidden;
@@ -84,28 +84,42 @@ a{
 }
 /****************Me Ends***************/
 .about{
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh; */
+  background: #ffffff;
+  /* overflow: hidden;
   background:url("moi-about-ii.jpg") no-repeat 50% 40% fixed;
-  background-size: cover;
+  background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-transform: translate3d(0,0,0); 
+  /* -webkit-transform: translate3d(0,0,0); 
   -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  -webkit-perspective: 1000; */
 }
 
 .aboutText{
   font-family: 'Lato', sans-serif;
   font-size: 150%;
-  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-  color: #ffffff;
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  color: #ffffff; */
+  
   line-height: 1.4;
   width: 90%;
-  /* margin: 3em auto; */
+  margin: 1em auto;
   padding: 0.1em 0.4em;
   border-radius: 15px 50px;
+}
+
+.aboutText h1{
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+
+.aboutText span{
+  font-weight: 800;
+  font-size: 110%;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
 }
 
 /*************About End********/
@@ -138,11 +152,21 @@ margin: 0 auto;
 
 .projImg{
   width: 90%;
+  overflow: hidden;
   margin: 1em auto;
 }
 .projImg img{
   width: 100%;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.projImg:hover img{
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+}
+
 
 .deskBut .projButtons{
   display: none;
@@ -239,26 +263,34 @@ nav{
 
 .name{
   width: max-content;
-  font-size: 270%;
-  top: 40%;
+  font-size: 300%;
+  top: 50%;
   /* left: 60%; */
-  right: 4%;
+  right: 2%;
 }
 
 .hello{
-  font-size: 270%;
-  top: 40%;
-  left: 4%;
+  font-size: 300%;
+  top: 50%;
+  left: 2%;
 }
 
 /****************Me Ends***************/
 .about{
-  justify-content: flex-start;
-  align-items: flex-end;
+  /* height: 100vh; */
+  /* justify-content: flex-start;
+  align-items: flex-end; */
+  justify-content: center;
+  align-items: center;
 }
 .aboutText{
-  width: 55%;
-  margin:0em 0em 1em 1em;
+  width: 90%;
+  margin:2em 0em 2em 1em;
+  font-size: 170%;
+}
+
+.aboutText h1{
+  font-size: 200%;
 }
 /************About Ends************/
 .projects{
@@ -307,20 +339,20 @@ nav{
   /********Nav End *************/
 
   .name{
-    font-size: 290%;
+    font-size: 320%;
     /* bottom: 40%; */
-    right: 6%;
+    right: 4%;
     /* left: 70%; */
   }
 
   .hello{
-    font-size: 290%;
+    font-size: 320%;
     /* bottom: 42%; */
-    left: 6%;
+    left: 4%;
   }
 
   .aboutText{
-    width: 40%;
+    width: 55%;
     /* margin:7em 0em 0em 2em; */
   }
 /****************About Ends ******************/
@@ -332,6 +364,11 @@ nav{
 @media only screen and (min-width: 1440px){
   .projects{
     width: 50%;
+  }
+
+  .aboutText{
+    width: 45%;
+    /* margin:7em 0em 0em 2em; */
   }
 }
 
