@@ -9,7 +9,7 @@
     <title>Stella Dare</title>
   </head>
   <body>
-    <nav>
+    <nav id="nav">
       <div class="socialLinks">
       <a href="#" class='navAnime'><i class="fa fa-github navIcons"></i></a>
       <a href="#" class='navAnime'><i class="fa fa-twitter navIcons"></i></a>
@@ -172,6 +172,18 @@
     </section>
     <footer><p>&copy; 2020 Stel Dare - Made with &#9825; </p></footer>
     <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+    var nav = document.getElementById("nav");
+    var navPosition = document.getElementById("nav").offsetTop;
+    function myFunction() {
+  if (window.pageYOffset > navPosition) {
+    // nav.classList.add("navBackground");
+    nav.style.backgroundColor = "rgba(30, 30, 32, 0.8)";
+  } else {
+    // nav.classList.remove("navBackground");
+    nav.style.backgroundColor = "transparent";
+  }
+}
       function dropdown(){
          document.getElementById("dropLinks").classList.toggle("show");
          document.getElementById("hamburger").classList.toggle("fa-bars");

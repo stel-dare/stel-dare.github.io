@@ -3,7 +3,8 @@ html{
   /* -webkit-transform: translate3d(0,0,0); */
 }
 body{
-background:#000000;
+  background: #1e1e20;
+  color: #2f3135;
   margin: 0;
 }
 nav{
@@ -18,19 +19,24 @@ nav{
   font-family: 'Lato', sans-serif;
   font-size: 170%;
   padding:0.1em 0.4em 0 0.4em;
-  background:linear-gradient(
+  /* background: transparent; */
+  transition:all 0.8s ease;
+  /* background:linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
-  );
+  ); */
 }
 
 nav, nav a{
-  color:#ebebe3;
+  color: #c09957;
 }
 nav a{
   text-decoration: none;
 }
 
+.navBackground{
+  background: rgba(30, 30, 32, 0.8);
+}
 .socialLinks a{
   padding: 0 0.3em 0 0;
 }
@@ -65,7 +71,8 @@ a{
 }
 
 .hello, .name{
-  color:#ebebe3;
+  /* color:#ebebe3; */
+  background: rgba(30, 30, 32, 0.3);
   position: absolute;
   bottom: 0.5em;
   font-family: 'Merriweather', serif;
@@ -74,18 +81,21 @@ a{
 .hello{
   bottom: 3em;
 }
-.title{
-  font-family: 'Lato', sans-serif;
-  font-size: 50%;
-}
 
 .hello h1, .name h1, .name p{
   margin: 0.2em;
+  color: #efefef;
+}
+
+.name p{
+  font-family: 'Lato', sans-serif;
+  font-size: 50%;
+  color: #ffd68f;
 }
 /****************Me Ends***************/
 .about{
   /* height: 100vh; */
-  background: #ffffff;
+  background: #efefef;
   /* overflow: hidden;
   background:url("moi-about-ii.jpg") no-repeat 50% 40% fixed;
   background-size: cover; */
@@ -126,6 +136,7 @@ a{
 
 .projects{
   margin: 2em 0em 2em 0em;
+  color: #efefef;
 }
 
 .proj{
@@ -134,7 +145,7 @@ a{
 
 
 .projAbout{
-color:#ebebe3;
+/* color:#ebebe3; */
 width: 90%;
 margin: 0 auto;
 }
@@ -180,9 +191,10 @@ margin: 0 auto;
   font-family: 'Merriweather', serif;
   font-size:110%;
   margin: 0 0.5em 0 0;
-  color: #ffffff;
+  padding: 0.2em 0.3em;
+  color: #efefef;
   background: transparent;
-  border: 2px solid #455d7a;
+  border: 2px solid #e4c49e;
   border-radius: 6px;
   /* Button color options: 5c848e  7e97a6  474a56 455d7a*/
 }
@@ -197,9 +209,9 @@ margin: 0 auto;
 }
 
 hr{
-  background-color: #eee;
+  background-color: #efefef;
   border: 0 none;
-  color: #eee;
+  color: #efefef;
   height: 1px;
   width: 5em;
   margin: 0 auto;
@@ -207,7 +219,7 @@ hr{
 
 footer p {
   font-family: 'Lato', sans-serif;
-  color: #ffffff;
+  color: #efefef;
   font-style: italic;
   text-align: center;
   font-size: 90%;
@@ -215,30 +227,31 @@ footer p {
 /*********Animations ****************/
 .hoverAnime,.navAnime{
   background-position: center;
-  transition:all 0.8s ease;
+  transition:all 0.6s ease;
 }
 
 .hoverAnime:hover{
   /* background: #455d7a; */
-  background: #455d7a radial-gradient(circle, transparent 1%, #455d7a 1%) center/15000%;
+  background: #e4c49e radial-gradient(circle, transparent 1%, #e4c49e 1%) center/15000%;
+  color: #1e1e20;
 }
 
 .navAnime:hover{
-  color:#420C3B;
+  color:#efefef;
   /* color: #420C3B radial-gradient(circle, transparent 1%, #420C3B 1%) center/15000%; */
 }
 
 .hoverAnime:active {
-  background-color: #6eb9f7;
+  background-color: #9C6B48   ;
   background-size: 100%;
   transition:  0s;
 }
-
+/* 
 .navAnime:active{
   color: #6eb9f7;
-  /* background-size: 100%;
-  transition:  0s; */
-}
+  background-size: 100%;
+  transition:  0s;
+} */
 
  @media only screen and (min-width: 768px) {
 #hamburger{
@@ -267,13 +280,19 @@ nav{
   top: 50%;
   /* left: 60%; */
   right: 2%;
+  background: transparent;
 }
-
+.name p{
+  background: rgba(30, 30, 32, 0.3);
+  width: fit-content;
+}
 .hello{
   font-size: 300%;
   top: 50%;
   left: 2%;
+  background: transparent;
 }
+
 
 /****************Me Ends***************/
 .about{
