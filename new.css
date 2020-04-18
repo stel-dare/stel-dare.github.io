@@ -61,25 +61,40 @@ a{
 
 /********Nav End *************/
 .intro{
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
-  background:url("moi-trans-i.png") no-repeat 30% 30% fixed;
+  position: relative;
+  /* background:url("moi-trans-i.png") no-repeat 30% 30% fixed;
   background-size: cover;
   -webkit-transform: translate3d(0,0,0); 
   -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  -webkit-perspective: 1000; */
+}
+
+.intro::before {
+  background:url("moi-trans-i.png") no-repeat 30% 30%;
+  background-size: cover;
+  content: '';
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  will-change: transform;
+  z-index: -1;
 }
 
 .hello, .name{
   /* color:#ebebe3; */
   background: rgba(30, 30, 32, 0.3);
   position: absolute;
-  bottom: 0.5em;
+  /* top:70%; */
+  bottom: 2em;
   font-family: 'Merriweather', serif;
   font-size: 250%;
 }
 .hello{
-  bottom: 3em;
+  bottom: 4.5em;
 }
 
 .hello h1, .name h1, .name p{
@@ -91,7 +106,13 @@ a{
   font-family: 'Lato', sans-serif;
   font-size: 50%;
   color: #ffd68f;
+  font-weight: 600;
 }
+
+.projNFooter{
+  background: #1e1e20;
+}
+
 /****************Me Ends***************/
 .about{
   /* height: 100vh; */
@@ -223,6 +244,8 @@ footer p {
   font-style: italic;
   text-align: center;
   font-size: 90%;
+  margin: 0;
+  padding: 0.5em 0em 1em 0em;
 }
 /*********Animations ****************/
 .hoverAnime,.navAnime{
