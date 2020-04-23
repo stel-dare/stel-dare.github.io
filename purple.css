@@ -5,7 +5,7 @@ html{
 body{
     margin: 0;
     background: #fadcda;
-    color: #131a2b;
+    color: #222f4e;
     font-family: 'Roboto Slab', serif;
 }
 nav{
@@ -69,22 +69,56 @@ nav a {
     margin: 0 auto;
 }
 .avatarSec img, .skillImg img{
+    display: block;
     max-width: 100%;
+    margin: 0 auto;
+
 }
 
 .secIntro,.skillText{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-align: center; 
 }
 
  h2{
     color: #282c83;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 150%; */
+}
+
+h3{
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .middleh2{
     text-align: center;
+    font-size: 250%;
+    padding: 1em 0em;
 }
+
+#second p{
+    font-size: 120%;
+    line-height: 1.6;
+}
+
+.email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    font-size: 140%;
+    margin: 2em auto 0em auto;
+    padding: 0.6em 0.4em;
+    text-decoration: none;
+    background: #69b9a5;
+    color: #222f4e;
+}
+
+/* .email span{
+    padding: 0em 1em;
+} */
 
 @media only screen and (min-width: 768px) {
     .avatar{
