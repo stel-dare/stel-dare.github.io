@@ -1,0 +1,116 @@
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background: #fadcda;
+    color: #131a2b;
+    font-family: 'Roboto Slab', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 1em;
+}
+nav a {
+    text-decoration: none;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0em 0.5em;
+    color: #282c83;
+}
+.avatar{
+    width: 20%;
+}
+
+.avatar img{
+    max-width: 100%;
+}
+
+.intro{
+    color: #282c83;
+    width: fit-content;
+    margin: 4em auto;
+    text-align: center; 
+}
+
+.intro h1{
+    font-size: 400%;
+    font-family: 'Dawning of a New Day', cursive;
+    margin-bottom: 0;
+}
+
+.intro p{
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.introImage{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.introImage img{
+    max-width: 100%;
+}
+#second{
+    background: #fefdfd;
+    padding: 3em 0em;
+}
+.avatarSec, .skillImg{
+    width: 50%;
+    margin: 0 auto;
+}
+.avatarSec img, .skillImg img{
+    max-width: 100%;
+}
+
+.secIntro,.skillText{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+ h2{
+    color: #282c83;
+}
+
+.middleh2{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .avatar{
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    nav a{
+        padding: 0em 1em;
+    }
+    .avatar{
+        width: 8%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+nav{
+    width: 65%;
+    margin: 0 auto;
+}
+.avatar{
+    width: 6%;
+}
+nav a{
+    padding: 0em 1.5em;
+}
+}
+
+@media only screen and (min-width: 2560px) {
+    nav{
+        width: 35%;
+    }
+}
