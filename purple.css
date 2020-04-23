@@ -32,14 +32,15 @@ nav a {
 .intro{
     color: #282c83;
     width: fit-content;
-    margin: 4em auto;
+    margin: 0 auto;
+    padding: 1.5em 0em 2em 0em;
     text-align: center; 
 }
 
 .intro h1{
     font-size: 400%;
     font-family: 'Dawning of a New Day', cursive;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .intro p{
@@ -50,10 +51,14 @@ nav a {
 .introImage{
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
+
 }
 
 .introImage img{
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 #second{
     background: #fefdfd;
@@ -94,6 +99,15 @@ nav a {
     .avatar{
         width: 8%;
     }
+    .intro h1 {
+        font-size: 500%;
+    }
+    .intro p {
+        font-size: 140%;
+}
+.introImage{
+    width: 75%;
+}
 }
 
 @media only screen and (min-width: 1440px) {
@@ -107,10 +121,18 @@ nav{
 nav a{
     padding: 0em 1.5em;
 }
+
+.introImage{
+    width: 50%;
+}
 }
 
 @media only screen and (min-width: 2560px) {
     nav{
         width: 35%;
+    }
+
+    .introImage{
+        width: 30%;
     }
 }
