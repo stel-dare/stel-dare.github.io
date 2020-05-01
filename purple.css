@@ -61,11 +61,12 @@ nav a {
     margin: 0 auto;
 }
 #second{
+    display: none;
     background: #fefdfd;
     padding: 3em 0em;
 }
 .avatarSec, .skillImg{
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
 }
 .avatarSec img, .skillImg img{
@@ -80,7 +81,9 @@ nav a {
     margin: 0 auto;
     text-align: center; 
 }
-
+.reverse {
+    padding: 1.5em 0em 0em 0em;
+}
  h2{
     color: #282c83;
     font-family: 'Roboto', sans-serif;
@@ -90,12 +93,13 @@ nav a {
 h3{
     font-size: 150%;
     font-family: 'Roboto', sans-serif;
+    color: #69b9a5;
 }
 
 .middleh2{
     text-align: center;
     font-size: 250%;
-    padding: 1em 0em;
+    padding: 1.5em 0em;
 }
 
 #second p{
@@ -147,7 +151,7 @@ footer p {
     }
 
     .avatarSec, .skillImg {
-        width: 22%;
+        width: 16%;
     }
 
     .secIntro, .skillText {
@@ -181,7 +185,7 @@ footer p {
     width: 75%;
 }
 .avatarSec, .skillImg {
-    width: 15%;
+    width: 10%;
 }
 .secIntro, .skillText {
     width: 40%;
@@ -242,7 +246,7 @@ nav a{
     padding: 3em 10%;
 }
 .avatarSec, .skillImg {
-    width: 12%;
+    width: 8%;
 }
 .secIntro, .skillText {
     width: 28%;
