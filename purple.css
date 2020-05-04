@@ -7,6 +7,7 @@ body{
     background: #fadcda;
     color: #222f4e;
     font-family: 'Roboto Slab', serif;
+    transition:all 0.8s ease;
 }
 nav{
     display: flex;
@@ -191,6 +192,11 @@ h3{
     padding: 0.4em 0em;
 }
 
+.skillText a, .secIntro a{
+    text-decoration: none;
+    color:#69b9a5 ;
+    font-weight: 600;
+}
 
 footer {
     padding: 3em 1em;
