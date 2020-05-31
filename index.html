@@ -84,58 +84,7 @@
             <a href="https://github.com/stel-dare/bioflex/blob/master/README.md"  target="_blank" rel="noopener noreferrer"><i class="fa fa-info-circle " aria-hidden="true"></i>Details</a>
           </div>
     </div>
-    <!-- <div class="proj">
-        <div class="projImg">
-            <img src="coming-soon-2.webp" alt="picture of project">
-          </div>
-          <div class="projAbout">
-            <h3>My Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="projButtons">
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-rocket" aria-hidden="true"></i>Launch</button>
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-info-circle " aria-hidden="true"></i>Details</button>
-          </div>
-    </div>
-    <div class="proj">
-        <div class="projImg">
-            <img src="coming-soon-2.webp" alt="picture of project">
-          </div>
-          <div class="projAbout">
-            <h3>My Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="projButtons">
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-rocket" aria-hidden="true"></i>Launch</button>
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-info-circle " aria-hidden="true"></i>Details</button>
-          </div>
-    </div>
-    <div class="proj">
-        <div class="projImg">
-            <img src="coming-soon-2.webp" alt="picture of project">
-          </div>
-          <div class="projAbout">
-            <h3>My Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="projButtons">
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-rocket" aria-hidden="true"></i>Launch</button>
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-info-circle " aria-hidden="true"></i>Details</button>
-          </div>
-    </div>
-    <div class="proj">
-        <div class="projImg">
-            <img src="coming-soon-2.webp" alt="picture of project">
-          </div>
-          <div class="projAbout">
-            <h3>My Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="projButtons">
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-rocket" aria-hidden="true"></i>Launch</button>
-            <button type="button" name="button" class="hoverAnime"><i class="fa fa-info-circle " aria-hidden="true"></i>Details</button>
-          </div>
-    </div> -->
+
     <h2 class='middleh2'>I can help </h2>
     <div class="skills">
         <div class="skillText">
@@ -157,45 +106,6 @@
       <p>&copy; 2020 Stel Dare - Made with &#9825; </p>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-      // Store hash
-      var hash = this.hash;
-      //if section is not hidden
-           if(!document.getElementById(hash.slice(1)).classList.contains('hide')){
-               //hide opposite section
-            document.getElementById(hash.slice(1)==='projects'?'second':'projects').classList.add('hide');
-            //scroll to clicked section
-               $('html, body').animate({
-                scrollTop: $(hash).offset().top
-                 }, 800, function(){
-                 // Add hash (#) to URL when done scrolling (default click behavior)
-                 window.location.hash = hash;
-                 });   
-           }
-
-           else{
-               //Hide opposite section
-            document.getElementById(hash.slice(1)==='projects'?'second':'projects').classList.add('hide');
-            //Unhide  clicked section
-            document.getElementById(hash.slice(1)).classList.remove('hide');
-            $('html, body').animate({
-            scrollTop: $(hash).offset().top
-            }, 800, function(){
-            // Add hash (#) to URL when done scrolling (default click behavior)
-             window.location.hash = hash;
-            }); 
-           }
-
-  
-    } 
-  });
-});
-</script>
+<script src="scripts.js"></script>>
 </body>
 </html>
