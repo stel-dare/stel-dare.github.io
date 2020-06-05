@@ -8,6 +8,7 @@ body{
     color: #222f4e;
     font-family: 'Roboto Slab', serif;
     transition:all 0.8s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
 button{
