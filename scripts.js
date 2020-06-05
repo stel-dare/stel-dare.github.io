@@ -1,3 +1,4 @@
+// Function for smooth scrolling between sections
 $(document).ready(function(){
     $("a").on('click', function(event) {
       // Make sure this.hash has a value before overriding default behavior
@@ -30,9 +31,7 @@ $(document).ready(function(){
               // Add hash (#) to URL when done scrolling (default click behavior)
                window.location.hash = hash;
               }); 
-             }
-  
-    
+             } 
       } 
     });
   });

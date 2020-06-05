@@ -1,3 +1,4 @@
+/* Genral Styles */
 html{
     margin: 0;
 }
@@ -14,6 +15,7 @@ body{
 button{
     cursor: pointer;
 }
+/* Navigation Styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -34,7 +36,7 @@ nav a {
 .avatar img{
     max-width: 100%;
 }
-
+/* Introduction Styles */
 .intro{
     color: #282c83;
     width: fit-content;
@@ -66,6 +68,7 @@ nav a {
     display: block;
     margin: 0 auto;
 }
+/* About Styles */
 #second{
     background: #fefdfd;
     padding: 3em 0em;
@@ -133,6 +136,8 @@ h3{
     background: #69b9a5;
     color: #222f4e;
 }
+
+/* Project Styles */
 #projects {
     background: #fefdfd;
     padding: 3em 0em;
@@ -206,7 +211,7 @@ h3{
     color:#69b9a5 ;
     font-weight: 600;
 }
-
+/* Footer Styles */
 footer {
     padding: 3em 1em;
 }
@@ -233,6 +238,7 @@ footer p {
 } */
 
 @media only screen and (min-width: 768px) {
+    /* Navigation styles */
     .avatar{
         width: 10%;
     }
@@ -240,7 +246,7 @@ footer p {
     .avatarSec, .skillImg {
         width: 16%;
     }
-
+    /* About section styles*/
     .secIntro, .skillText {
         width: 60%;
     }
@@ -250,25 +256,28 @@ footer p {
         width: 60%;
     }
 
-    .socialLinks {
-        width: 60%;
-    }
-
+    /* Project Styles */
     .projImg {
         width: 70%;
     }
     .projAbout , .projButtons{
         width: 80%;
     }
+    /* Footer styles */
+    .socialLinks {
+        width: 60%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
+    /* Navigation styles */
     nav a{
         padding: 0em 1em;
     }
     .avatar{
         width: 8%;
     }
+    /* Introduction Styles */
     .intro h1 {
         font-size: 500%;
     }
@@ -278,6 +287,7 @@ footer p {
 .introImage{
     width: 75%;
 }
+/* About styles */
 .avatarSec, .skillImg {
     width: 10%;
 }
@@ -316,19 +326,22 @@ footer p {
 .email {
     width: 25%;
 }
-.socialLinks {
-    width: 40%;
-}
-
+/* Project styles */
 .projImg {
     width: 60%;
 }
 .projAbout , .projButtons{
     width: 45%;
 }
+
+/* Footer styles */
+.socialLinks {
+    width: 40%;
+}
 }
 
 @media only screen and (min-width: 1440px) {
+    /* Navigation styles */
 nav{
     width: 65%;
     margin: 0 auto;
@@ -340,9 +353,11 @@ nav a{
     padding: 0em 1.5em;
 }
 
+/* Introduction styles */
 .introImage{
     width: 50%;
 }
+/* About Styles */
 #second {
     padding: 3em 10%;
 }
@@ -355,31 +370,36 @@ nav a{
 .email {
     width: 20%;
 }
-.socialLinks {
-    width: 30%;
-}
 
+/* Project Styles */
 .projImg {
     width: 45%;
 }
 .projAbout , .projButtons{
     width: 30%;
 }
+
+/* Footer styles */
+.socialLinks {
+    width: 30%;
+}
+
 }
 
 @media only screen and (min-width: 2560px) {
+    /* Navigation styles */
     nav{
         width: 35%;
     }
-
+    /* Introduction styles */
     .introImage{
         width: 30%;
     }
-
+    /* About styles */
     #second {
         padding: 3em 20%;
     }
-
+    /* Project styles */
     .projImg {
         width: 30%;
     }
