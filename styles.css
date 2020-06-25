@@ -146,14 +146,17 @@ h3{
     font-size: 120%;
     line-height: 1.6;
 }
+.projAbout p {
+    font-size: 90% !important;
+}
 .projIntro {
     margin: 1em auto 3em auto;
 }
 .proj {
-    padding: 2em 0em;
+    padding: 3em 0em;
 }
 .projButtons a .fa {
-    padding: 0em 0.6em;
+    padding: 0em 0.3em;
 }
 .proj:nth-child(2) {
     background: #badbcd;
@@ -171,8 +174,9 @@ h3{
     background: #222f4e;
 }
 .projImg {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .projImg img {
     display: block;
@@ -189,13 +193,13 @@ h3{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    /* flex-direction: column; */
+    justify-content: space-around;
     align-items: center;
 }
 
 .projButtons a {
-    width: 100%;
+    width: 45%;
     border: 0;
     margin: 0.7em 0em;
     font-size: 130%;
@@ -204,6 +208,8 @@ h3{
     text-decoration: none;
     background: #5a54f2;
     color: #f5ffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .skillText a, .secIntro a{
@@ -261,7 +267,7 @@ footer p {
         width: 70%;
     }
     .projAbout , .projButtons{
-        width: 80%;
+        width: 50%;
     }
     /* Footer styles */
     .socialLinks {
@@ -331,7 +337,7 @@ footer p {
     width: 60%;
 }
 .projAbout , .projButtons{
-    width: 45%;
+    width: 40%;
 }
 
 /* Footer styles */
@@ -376,7 +382,7 @@ nav a{
     width: 45%;
 }
 .projAbout , .projButtons{
-    width: 30%;
+    width: 25%;
 }
 
 /* Footer styles */
@@ -404,6 +410,6 @@ nav a{
         width: 30%;
     }
     .projAbout , .projButtons{
-        width: 20%;
+        width: 15%;
     }
 }
