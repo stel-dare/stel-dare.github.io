@@ -78,10 +78,10 @@ nav a {
     display: none;
 }
 
-#projects{
+/* #projects{
     background: #fefdfd;
     padding: 3em 0em;
-}
+} */
 .avatarSec, .skillImg{
     width: 30%;
     margin: 0 auto;
@@ -126,15 +126,21 @@ h3{
 
 .email{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 80%;
-    font-size: 140%;
+    width: 60%;
+    font-size: 130%;
     margin: 2em auto 0em auto;
     padding: 0.6em 0.4em;
     text-decoration: none;
     background: #69b9a5;
     color: #222f4e;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.email span {
+    padding: 0em 0.4em;
 }
 
 /* Project Styles */
@@ -258,8 +264,8 @@ footer p {
     }
 
     .email {
-        justify-content: space-evenly;
-        width: 60%;
+        /* justify-content: space-evenly; */
+        width: 30%;
     }
 
     /* Project Styles */
@@ -378,11 +384,15 @@ nav a{
 }
 
 /* Project Styles */
+section#projects > * {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .projImg {
-    width: 45%;
+    width: 55%;
 }
 .projAbout , .projButtons{
-    width: 25%;
+    width: 35%;
 }
 
 /* Footer styles */
@@ -406,10 +416,14 @@ nav a{
         padding: 3em 20%;
     }
     /* Project styles */
+    section#projects > * {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
     .projImg {
-        width: 30%;
+        width: 50%;
     }
     .projAbout , .projButtons{
-        width: 15%;
+        width: 35%;
     }
 }
