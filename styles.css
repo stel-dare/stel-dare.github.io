@@ -5,8 +5,8 @@ html{
 
 body{
     margin: 0;
-    background: #fadcda;
-    color: #222f4e;
+    background: #f1f6f5;
+    color: #202020;
     font-family: 'Roboto Slab', serif;
     transition:all 0.8s ease;
     -webkit-tap-highlight-color: transparent;
@@ -27,7 +27,8 @@ nav a {
     font-size: 120%;
     font-family: 'Roboto', sans-serif;
     padding: 0em 0.5em;
-    color: #282c83;
+    color: #202020;
+    text-transform: uppercase;
 }
 .avatar{
     width: 20%;
@@ -38,7 +39,7 @@ nav a {
 }
 /* Introduction Styles */
 .intro{
-    color: #282c83;
+    /* color: #282c83; */
     width: fit-content;
     margin: 0 auto;
     padding: 1.5em 0em 2em 0em;
@@ -70,7 +71,7 @@ nav a {
 }
 /* About Styles */
 #second{
-    background: #fefdfd;
+    background: #eeaba0;
     padding: 3em 0em;
 }
 
@@ -102,7 +103,7 @@ nav a {
     padding: 1.5em 0em 0em 0em;
 }
  h2{
-    color: #282c83;
+    color: #20203c;
     font-family: 'Roboto', sans-serif;
     /* font-size: 150%; */
 }
@@ -110,7 +111,7 @@ nav a {
 h3{
     font-size: 150%;
     font-family: 'Roboto', sans-serif;
-    color: #69b9a5;
+    color: #3c2020;
 }
 
 .middleh2{
@@ -133,8 +134,8 @@ h3{
     margin: 2em auto 0em auto;
     padding: 0.6em 0.4em;
     text-decoration: none;
-    background: #69b9a5;
-    color: #222f4e;
+    background: #f9fcfe;
+    color: #0a0a0a;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -145,8 +146,11 @@ h3{
 
 /* Project Styles */
 #projects {
-    background: #fefdfd;
+    background: #f9fcfe;
     padding: 3em 0em;
+}
+#projects .email {
+    background: #f1f6f5;
 }
 #projects p {
     font-size: 120%;
@@ -165,7 +169,7 @@ h3{
     padding: 0em 0.3em;
 }
 .proj:nth-child(2) {
-    background: #badbcd;
+    background: #b1bcff;
 }
 .proj:nth-child(3) {
     background: #72a4a7;
@@ -212,20 +216,28 @@ h3{
     padding: 0.4em 0em;
     text-align: center;
     text-decoration: none;
-    background: #5a54f2;
-    color: #f5ffff;
+    background: #3357e5;
+    color: #f9fcfe;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
+.projButtons a:nth-child(2) {
+    color: #3357e5;
+    background: #f9fcfe;
+}
+
 .skillText a, .secIntro a{
     text-decoration: none;
-    color:#69b9a5 ;
+    color: #20203c;
     font-weight: 600;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #20203c;
 }
 /* Footer Styles */
 footer {
     padding: 3em 1em;
+    background: #0a0a0a;
 }
 
 .socialLinks {
@@ -239,11 +251,12 @@ footer {
 
 .socialLinks a {
     font-size: 180%;
-    color: #222f4e;
+    color: #f1f6f5;
 }
 
 footer p {
     text-align: center;
+    color: #f1f6f5;
 }
 /* .email span{
     padding: 0em 1em;
