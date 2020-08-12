@@ -112,7 +112,7 @@ h3{
 .middleh2{
     text-align: center;
     font-size: 250%;
-    padding: 1.5em 0em;
+    padding: 0.5em 0em;
 }
 
 #second p{
@@ -138,6 +138,7 @@ h3{
 .email span {
     padding: 0em 0.4em;
 }
+
 
 /* Project Styles */
 #projects {
@@ -319,7 +320,7 @@ footer {
 }
 
 .skillImg {
-    padding: 0em 5em;
+    padding: 0em 0em;
 }
 
 .reverse{
@@ -335,6 +336,29 @@ footer {
 }
 .email {
     width: 25%;
+}
+/* Alt skills styles  */
+.alt-skills{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.alt-skills-img-child{
+    width: 30%;
+}
+
+.alt-skills-text-child{
+    width: 70%;
+}
+
+.skillImg img{
+    margin:0 0 0 auto;
+    padding-right: 1.5em;
+}
+
+.reverse .skillImg img{
+    margin:0;
+    padding: 0 0 0 0.8em
 }
 /* Project styles */
 .projImg {
@@ -377,6 +401,20 @@ nav a{
 }
 .email {
     width: 20%;
+}
+
+/* All skills styles  */
+.alt-skills{
+    width: 36%;
+    margin: 0 auto;
+}
+
+.alt-skills-img-child{
+    width: 30%;
+}
+
+.alt-skills-text-child{
+    width: 70%;
 }
 
 /* Project Styles */
