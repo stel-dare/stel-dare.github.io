@@ -164,21 +164,62 @@ h3{
 .projButtons a .fa {
     padding: 0em 0.3em;
 }
-.proj:nth-child(2) {
+.projButtons a {
+    width: 45%;
+    border: 0;
+    margin: 0.7em 0em;
+    font-size: 130%;
+    padding: 0.4em 0em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+/* .proj:nth-child(2) {
     background: #b1bcff;
 }
 .proj:nth-child(3) {
     background: #72a4a7;
+} */
+/* third project from below */
+.proj:nth-last-child(5) {
+    background: #f1ece4;
 }
-.proj:nth-child(4) {
-    background: #f08c8c;
+.proj:nth-last-child(5) .projButtons a{
+    background: #312d28;
+    color: #f9fcfe;
 }
-.proj:nth-child(5) {
-    background: #f5f8ab;
+.proj:nth-last-child(5) .projButtons a:nth-child(2) {
+    color: #312d28;
+    background: #f9fcfe;
 }
-.proj:nth-child(6) {
-    background: #222f4e;
+
+/* second project from below */
+.proj:nth-last-child(4) {
+    background: #b8d7d2;
 }
+.proj:nth-last-child(4) .projButtons a{
+    background: #123d3a;
+    color: #f9fcfe;
+}
+.proj:nth-last-child(4) .projButtons a:nth-child(2) {
+    color: #123d3a;
+    background: #f9fcfe;
+}
+
+/* first project from below */
+.proj:nth-last-child(3) {
+    background: #beddfb;
+}
+.proj:nth-last-child(3) .projButtons a{
+    background: #3363bc;
+    color: #f9fcfe;
+}
+.proj:nth-last-child(3) .projButtons a:nth-child(2) {
+    color: #3363bc;
+    background: #f9fcfe;
+}
+
 .projImg {
     width: 95%;
     margin: 0 auto;
@@ -203,24 +244,6 @@ h3{
     align-items: center;
 }
 
-.projButtons a {
-    width: 45%;
-    border: 0;
-    margin: 0.7em 0em;
-    font-size: 130%;
-    padding: 0.4em 0em;
-    text-align: center;
-    text-decoration: none;
-    background: #3357e5;
-    color: #f9fcfe;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.projButtons a:nth-child(2) {
-    color: #3357e5;
-    background: #f9fcfe;
-}
 
 .skillText a, .secIntro a{
     text-decoration: none;
