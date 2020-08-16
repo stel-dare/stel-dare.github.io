@@ -67,6 +67,7 @@ nav a {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
 /* About Styles */
 #second{
