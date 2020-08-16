@@ -3,11 +3,11 @@ html{
     margin: 0;
 }
 
-@font-face{
+/* @font-face{
     font-family:FontAwesome;
     font-display: block;
     src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0);
-}
+} */
 
 body{
     margin: 0;
